@@ -16,6 +16,7 @@
             "outputPath": "dist/LatestAngular",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "allowedCommonJsDependencies": ["exceljs", "file-saver"],
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
